@@ -1,0 +1,20 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="przan.mobilnaredovalnica">
+
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="16"/>
+
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name="przan.mobilnaredovalnica.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="przan.mobilnaredovalnica.OceneActivity"/>
+        <activity android:name="przan.mobilnaredovalnica.Predmeti"/>
+        <activity android:name="przan.mobilnaredovalnica.Save"/>
+        <activity android:name="przan.mobilnaredovalnica.Letniki"/>
+        <activity android:name="przan.mobilnaredovalnica.Registracija"/>
+    </application>
+
+</manifest>
